@@ -1,0 +1,27 @@
+{
+  "name": "auto-air-controller",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/danielbair/auto-air-controller",
+  "keywords": [
+    "Electron",
+    "auto",
+    "ait",
+    "controller",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^6.1.12",
+    "electron-rebuild": "^1.11.0",
+    "node-dht-sensor": "^0.4.3",
+    "onoff": "^4.1.4",
+    "rpi-gpio": "^2.1.7"
+  }
+}
